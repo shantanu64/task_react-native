@@ -11,8 +11,8 @@ export default function CircularButtons() {
     return (
         <View style={tw`mt-8`}>
             <View style={tw`w-full px-2 flex flex-row mt-8 items-center justify-around`}>
-                <View style={tw`w-1/4 flex flex-col items-center p-0.5 h-42`}>
-                    <View style={tw`newborder rounded-full boxshdw`}>
+                <View style={tw`w-1/4 border-2 border-purple-600 flex flex-col items-center p-0.5 h-42`}>
+                    <View style={tw`newborder  rounded-full boxshdw`}>
                         <View style={tw` btn h-14 w-14 rounded-full`}>
                             <Image style={tw`w-2/5 h-2/5 m-auto`} source={vector1}></Image>
                         </View>
