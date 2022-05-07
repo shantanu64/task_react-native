@@ -3,7 +3,7 @@ import React from 'react';
 import { StyleSheet, Text, View, Image, ImageBackground } from 'react-native';
 import Icon from 'react-native-vector-icons/AntDesign';
 import tw from '../lib/tailwind';
-import portfolio from './assets/Rewards.png'
+import portfolio from './assets/rewards.png'
 import coins from './assets/coins.png'
 
 

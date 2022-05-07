@@ -12,7 +12,7 @@ export default function CircularButtons() {
         <View style={tw`mt-8`}>
             <View style={tw`w-full px-2 flex flex-row mt-8 items-center justify-around`}>
                 <View style={tw`w-1/4 border-2 border-purple-600 flex flex-col items-center p-0.5 h-42`}>
-                    <View style={tw`newborder  rounded-full boxshdw`}>
+                    <View style={tw`newborder p-2  rounded-full boxshdw`}>
                         <View style={tw` btn h-14 w-14 rounded-full`}>
                             <Image style={tw`w-2/5 h-2/5 m-auto`} source={vector1}></Image>
                         </View>
@@ -25,7 +25,7 @@ export default function CircularButtons() {
                     </Text>
                 </View>
                 <View style={tw` w-1/4 flex flex-col items-center p-0.5 h-42`}>
-                    <View style={tw`newborder rounded-full boxshdw`}>
+                    <View style={tw`newborder p-2 rounded-full boxshdw`}>
                         <View style={tw`btn h-14 w-14 rounded-full`}>
                             <Image style={tw`w-2/5 h-2/5 m-auto`} source={vector2}></Image>
                         </View>
@@ -39,7 +39,7 @@ export default function CircularButtons() {
 
                 </View>
                 <View style={tw` w-1/4 flex flex-col items-center p-0.5 h-42`}>
-                    <View style={tw`newborder rounded-full boxshdw`}>
+                    <View style={tw`newborder p-2 rounded-full boxshdw`}>
                         <View style={tw`btn h-14 w-14 rounded-full`}>
                             <Image style={tw`w-2/5 h-2/5 m-auto`} source={vector2}></Image>
                         </View>
@@ -52,7 +52,7 @@ export default function CircularButtons() {
                     </Text>
                 </View>
                 <View style={tw` w-1/4 flex flex-col items-center p-0.5 h-42`}>
-                    <View style={tw`newborder rounded-full boxshdw`}>
+                    <View style={tw`newborder p-2 rounded-full boxshdw`}>
                         <View style={tw`btn h-14 w-14 rounded-full`}>
                             <Image style={tw`w-2/5 h-2/5 m-auto`} source={vector3}></Image>
                         </View>
@@ -69,7 +69,7 @@ export default function CircularButtons() {
                 <Text style={tw`text-white font-light mt-1 text-justify text-base`}>
                     Deposit your cryptos to get instant credit limit on the card. Start using your card to earn XCoins @ 5% cashback rate (offer could change in the future)
                 </Text>
-                <View style={tw`newborder rounded-full boxshdw`}>
+                <View style={tw`newborder p-2 rounded-full boxshdw`}>
                         <View style={tw`btn h-14 w-14 rounded-full`}>
                             <Image style={tw`w-2/5 h-2/5 m-auto`} source={vector3}></Image>
                         </View>
@@ -83,5 +83,20 @@ export default function CircularButtons() {
 }
 
 const styles = StyleSheet.create({
+    btn: {
+        background: `linear-gradient(169.23deg, rgba(255, 255, 255, 0.25) -0.52%, rgba(255, 255, 255, 0) 104.4%)`,
+        filter: `drop-shadow(0px -4px 20px rgba(255, 255, 255, 0.15))`,
+        backdropFilter: `blur(8px)`,
+    },
+    boxshdw: {
+        boxShadow: `13 10 25px -5px rgba(24, 178, 222, 0.4),-13px -10px 25px -5px rgba(251, 55, 255, 0.4)`,
+    },
+    dropshadow: {
+        filter: ` drop-shadow(0px 21px 64px #84E4FF)`,
+    },
+    newborder: {
+        position: `relative`,
+        background: `linear-gradient(315deg, hsla(193, 80%, 48%, 1) 0%, hsla(0, 0%, 0%, 1) 30%, hsla(0, 0%, 0%, 1) 70%, hsla(299, 100%, 61%, 1) 100%)`,
+    }
 
 });

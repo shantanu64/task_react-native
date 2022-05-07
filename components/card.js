@@ -23,7 +23,7 @@ export default function Card() {
                         <Text style={tw`text-white font-bold`}>
                             VISA
                         </Text>
-                        <Text style={tw`text-white fomt-light`}>
+                        <Text style={tw`text-white font-light`}>
                             01/28
                         </Text>
                     </View>
@@ -64,28 +64,23 @@ const styles = StyleSheet.create({
     username_text2: {
         color: 'white'
     },
-    cardhead: {
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        padding: '14px'
-    },
     card: {
         marginHorizontal: 'auto',
         width: '100%',
-        borderRadius: '10px',
+        borderRadius: '10',
         flexDirection: 'column',
-        gap: '10px',
-        padding: '10px'
+        gap: '10',
+        padding: '10'
     },
     cardProvider: {
         color: 'white',
-        marginTop: '12px',
-        marginLeft: '16px'
+        marginTop: '12',
+        marginLeft: '16'
     },
     cardExpiry: {
         color: 'white',
-        marginTop: '12px',
-        marginRight: '16px'
+        marginTop: '12',
+        marginRight: '16'
     },
     cardText1: {
         flexDirection: 'row',
@@ -96,13 +91,13 @@ const styles = StyleSheet.create({
     },
     cardBalance: {
         color: 'white',
-        fontSize: '20px',
-        marginLeft: '16px'
+        fontSize: '20',
+        marginLeft: '16'
     },
     cardBalAmount: {
         color: 'white',
-        fontSize: '30px',
-        marginLeft: '16px'
+        fontSize: '30',
+        marginLeft: '16'
     },
     backgroundImage: {
         flex: 1,
